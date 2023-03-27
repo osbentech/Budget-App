@@ -126,9 +126,12 @@ Original design idea by Gregoire Vella on Behance.
 Microverse.
 [back to top](#readme-top)
 
-## 📝 License <a name="license" href="https://github.com/Mov305/To-do-list/blob/master/MIT.md" ></a>
 
-This project is <a href="https://github.com/Mov305/To-do-list/blob/master/MIT.md" target="_blank">MIT</a> licensed. 
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./MIT.md) licensed.
 
 [back to top](#readme-top)
 
