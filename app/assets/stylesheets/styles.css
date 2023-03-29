@@ -3,11 +3,11 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #F1F3F2;
+  background-color: #f1f3f2;
 }
 
 .bg-white {
-  background-color: #306BA9;
+  background-color: #306ba9;
 }
 
 .bg-white a {
@@ -18,7 +18,7 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #F1F3F2;
+  background-color: #f1f3f2;
   display: flex;
   flex-direction: column;
 }
@@ -27,7 +27,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #FFF;
+  color: #fff;
   list-style: none;
   width: 100%;
   height: 10rem;
@@ -45,7 +45,7 @@ body {
 
 .single-category {
   gap: 2rem;
-  background-color: #FFF;
+  background-color: #fff;
   margin: 10px;
 }
 
@@ -56,7 +56,7 @@ body {
 
 .single-purchase {
   gap: 2rem;
-  background-color: #FFF;
+  background-color: #fff;
   margin: 10px;
 }
 
@@ -73,14 +73,14 @@ body {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  color: #CACACA;
+  color: #cacaca;
 }
 
 .show-cate,
 .show-pur {
   border: 1px solid;
   border-radius: 1rem;
-  background-color: #306BA9;
+  background-color: #306ba9;
   width: 7rem;
   height: 2rem;
   display: flex;
@@ -91,14 +91,14 @@ body {
 }
 
 .date-time {
-  color: #CACACA;
+  color: #cacaca;
   padding: 1rem;
 }
 
 .view-t {
   border: 1px solid;
   border-radius: 1rem;
-  background-color: #60B625;
+  background-color: #60b625;
   width: 9rem;
   height: 2rem;
   display: flex;
@@ -111,7 +111,7 @@ body {
 .new-cate {
   border: 1px solid;
   border-radius: 1rem;
-  background-color: #306BA9;
+  background-color: #306ba9;
   width: 7rem;
   height: 2rem;
   display: flex;
@@ -128,14 +128,14 @@ body {
   width: 40%;
   height: 100%;
   display: none;
-  background-color: #306BA9;
+  background-color: #306ba9;
   color: #fff;
 }
 
 .new-pur {
   border: 1px solid;
   border-radius: 1rem;
-  background-color: #306BA9;
+  background-color: #306ba9;
   width: 7rem;
   height: 2rem;
   display: flex;
@@ -144,7 +144,7 @@ body {
 }
 
 .amount {
-  color: #4D5359;
+  color: #4d5359;
   font-size: large;
   font-weight: 900;
 }
@@ -159,9 +159,8 @@ body {
 
 .footer {
   display: flex;
-  background-color: #60B625;
+  background-color: #60b625;
   height: 10rem;
-  display: flex;
   align-items: center;
   margin-top: 5rem;
   justify-content: center;
@@ -171,7 +170,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #FFF;
+  color: #fff;
   font-size: 3rem;
 }
 
@@ -179,8 +178,8 @@ p.scan {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #FFF;
-  border: 1px solid #FFF;
+  color: #fff;
+  border: 1px solid #fff;
   width: 30rem;
   height: 4rem;
 }
@@ -188,7 +187,7 @@ p.scan {
 .login-head {
   font-style: italic;
   font-size: 6rem;
-  color: #306BA9;
+  color: #306ba9;
 }
 
 .log-container {
