@@ -1,0 +1,21 @@
+<p style="color: green"><%= notice %></p>
+
+  <header aria-label="Site Header" class="bg-white">
+  <nav class="nav">
+    <ul class="nav-ul">
+      <li class="li"> <a href="/categories"> &#8592; </a></li>
+      <li class="li">
+        <h1 class="category">
+          Transactions
+        </h1>
+      </li>
+      <li>&nbsp;</li>
+    </ul>
+  </nav>
+</header>
+
+<%= render @purchase %>
+
+<div>
+  <%= button_to "Destroy this purchase", @purchase, method: :delete %>
+</div>

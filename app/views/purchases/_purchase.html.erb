@@ -1,0 +1,24 @@
+<div id="<%= dom_id purchase %>">
+  <div class="single-purchase">
+    <div class="all">
+      <p class="pur">
+        <%= purchase.name %>
+      </p>
+
+      <p class="pur">
+        <%= purchase.categories.map(&:name).join(', ') %>
+      </p>
+
+      <p class="amount">
+        <%= purchase.amount %>
+      </p>
+
+      <%= link_to "Manage", purchase, class: 'show-pur' %>
+    </div>
+
+    <div class="date-time">
+      <%= purchase.created_at.strftime('%d %b %Y %H:%M:%S') %>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,26 @@
+<header aria-label="Site Header" class="bg-white">
+  <nav class="nav">
+    <ul class="nav-ul">
+      <li class="li"> <a href="/categories"> &#8592; </a></li>
+      <li class="li">
+        <h1 class="category">
+          Transactions
+        </h1>
+      </li>
+      <li class="li"> &nbsp; </li>
+    </ul>
+  </nav>
+</header>
+
+<p style="color: green"><%= notice %></p>
+
+<div id="purchases">
+  <% @purchases.each do |purchase| %>
+    <%= render purchase %>
+  <% end %>
+</div>
+<center>
+<div class="new-pur">
+  <%= link_to "New purchase", new_purchase_path %>
+</div>
+</center>
