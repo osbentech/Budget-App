@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -10,12 +8,10 @@ gem 'jwt'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.0.4', '>= 7.0.4.2'
+gem 'rubocop', '>= 1.0', '< 2.0'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
-
-# install devise
-gem 'devise'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'

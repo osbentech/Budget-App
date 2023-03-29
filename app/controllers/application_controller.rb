@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class ApplicationController < ActionController::Base
   before_action :authenticate_user!
   # make a current_user method available to all controllers
@@ -12,7 +10,6 @@ class ApplicationController < ActionController::Base
     ## to get the current user via session_id
     @current_user = User.find_by(id: session[:user_id]) if session[:user_id]
     ## to authenticate user via devise unless the current user have a session
-    @current_user
     authenticate_user! unless @current_user
   end
 
