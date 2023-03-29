@@ -1,0 +1,26 @@
+<div id="<%= dom_id category %>">
+  <div class="single-category">
+    <div class="all">
+     <p>
+        <%= image_tag "#{category.icon}", class: 'icon-photo' %>
+      </p>
+
+      <p class="cate">
+        <%= category.name %>
+        <br><br>
+       <center>
+       <%= link_to "View Transactions", purchases_path(category_id: category.id, category_name: category.name), class: 'view-t' %>
+       </center>
+      </p>
+
+      <p class="cate">
+        <strong><%= category.purchases.sum(:amount) %></strong>
+      </p>
+    </div>
+
+    <p class="show-cate">
+        <%= link_to "Show category", category %>
+  </p>
+  </div>
+
+</div>

@@ -8,9 +8,17 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+    <%= stylesheet_link_tag "styles.css" %>
+
   </head>
 
   <body>
+    <% if notice %> <p class="text-slate-500 bg-yellow-200/50 p-4"><%= notice %></p> <% end %>
+    <% if alert %> <p class="text-slate-500 bg-red-200/50 p-4"><%= alert %></p> <% end %>
     <%= yield %>
+
+    <footer>
+      <%= render "shared/footer"%>
+    </footer>
   </body>
 </html>
