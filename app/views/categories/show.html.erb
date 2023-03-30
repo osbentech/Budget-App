@@ -1,10 +1,19 @@
-<p style="color: green"><%= notice %></p>
+<header aria-label="Site Header" class="bg-white">
+  <nav class="nav">
+    <ul class="nav-ul">
+      <li class="li"> <a href="/categories"> &#8592; </a></li>
+      <li class="li">
+        <h1 class="category">
+          Categories list
+        </h1>
+      </li>
+      <li class="li"> &nbsp; </li>
+    </ul>
+  </nav>
+</header>
 
 <%= render @category %>
 
 <div>
-  <%= link_to "Edit this category", edit_category_path(@category) %> |
-  <%= link_to "Back to categories", categories_path %>
-
   <%= button_to "Destroy this category", @category, method: :delete %>
 </div>
