@@ -57,18 +57,23 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Add comments**
-- **Like Posts**
+- **Add/display categories**
+- **Add/display transactions**
+- **Log in**
+- **Sign in**
 
-<p align="right">([back to top](#readme-top))</p>
+<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [N/A](https://yourdeployedapplicationlink.com)
+- [project Link]("coming soon")
 
-<p align="right">([back to top](#readme-top))</p>
+- [Demo Video](https://youtu.be/WEVon_ZsSBc)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
+
 
 Clone project
 
