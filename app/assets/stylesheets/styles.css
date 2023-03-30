@@ -16,7 +16,6 @@ body {
 }
 
 .container {
-  max-width: 1200px;
   margin: 0 auto;
   background-color: #f1f3f2;
   display: flex;
@@ -29,7 +28,6 @@ body {
   justify-content: space-between;
   color: #fff;
   list-style: none;
-  width: 100%;
   height: 10rem;
 }
 
@@ -180,7 +178,6 @@ p.scan {
   justify-content: center;
   color: #fff;
   border: 1px solid #fff;
-  width: 30rem;
   height: 4rem;
 }
 
@@ -198,11 +195,23 @@ p.scan {
 }
 
 .email,
-.pass {
+.pass,
+.signuppass,
+.signupemail,
+.signupname,
+.signupcomf {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.signup-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
 }
 
 .lp {
