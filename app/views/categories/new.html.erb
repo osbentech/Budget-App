@@ -1,4 +1,17 @@
-<h1>New category</h1>
+<header aria-label="Site Header" class="bg-white">
+  <nav class="nav">
+    <ul class="nav-ul">
+      <li class="li"> <a href="/categories"> &#8592; </a></li>
+      <li class="li">
+        <h1 class="category">
+          New category
+        </h1>
+      </li>
+      <li class="li"> &nbsp; </li>
+    </ul>
+  </nav>
+</header>
+<h1>Create a new category</h1>
 
 <%= render "form", category: @category %>
 
@@ -7,3 +20,9 @@
 <div>
   <%= link_to "Back to categories", categories_path %>
 </div>
+
+<footer aria-label="Site Header" class="footer">
+  <div class="scan-cont">
+  <span>@copyright 2023</span>
+  </div>
+</footer>

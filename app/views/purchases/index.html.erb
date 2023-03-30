@@ -13,14 +13,18 @@
 </header>
 
 <p style="color: green"><%= notice %></p>
+<div class="container">
+  <div id="purchases">
+    <% @purchases.each do |purchase| %>
+      <%= render purchase %>
+    <% end %>
+  </div>
 
-<div id="purchases">
-  <% @purchases.each do |purchase| %>
-    <%= render purchase %>
-  <% end %>
+  <div class="footer">
+    <div class="scan-cont">
+      <div class="new-cate">
+        <%= link_to "New purchase", new_purchase_path, class: "scan"%>
+      </div>
+    </div>
+  </div>
 </div>
-<center>
-<div class="new-pur">
-  <%= link_to "New purchase", new_purchase_path %>
-</div>
-</center>

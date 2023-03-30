@@ -66,7 +66,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [project Link]("coming soon")
+- [project Link](https://budget-app-p3so.onrender.com)
 
 - [Demo Video](https://youtu.be/WEVon_ZsSBc)
 

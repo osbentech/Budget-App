@@ -58,6 +58,10 @@ body {
   margin: 10px;
 }
 
+.purfields {
+  margin: 10px;
+}
+
 .all {
   display: flex;
   align-items: center;
@@ -107,14 +111,12 @@ body {
 }
 
 .new-cate {
-  border: 1px solid;
-  border-radius: 1rem;
-  background-color: #306ba9;
   width: 7rem;
   height: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: bold;
 }
 
 .menu {
@@ -164,21 +166,14 @@ body {
   justify-content: center;
 }
 
-.scan {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 3rem;
-}
-
-p.scan {
+.scan-cont {
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
   border: 1px solid #fff;
-  height: 4rem;
+  height: 60%;
+  width: 90%;
 }
 
 .login-head {
