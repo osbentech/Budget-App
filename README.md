@@ -81,7 +81,7 @@ Clone project
 git clone https://github.com/osbentech/Budget-App.git
 ```
 
-cd blog-app-rails
+cd blog-Budget-App
 ```
 
 Run the program
