@@ -6,8 +6,52 @@ body {
   background-color: #f1f3f2;
 }
 
+.splash {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.link-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .bg-white {
   background-color: #306ba9;
+}
+
+.input {
+  width: 100%;
+  height: 35px;
+  margin-top: 10px;
+}
+
+.sign-up-form {
+  margin: 15px;
+}
+
+.format {
+  width: 100px;
+  margin-top: 10px;
+}
+
+.back-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3778c2;
+  color: #fff;
+  height: 100px;
 }
 
 .bg-white a {
@@ -176,17 +220,13 @@ body {
   width: 90%;
 }
 
-.login-head {
-  font-style: italic;
-  font-size: 6rem;
-  color: #306ba9;
-}
-
-.log-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.login-button {
+  background-color: #3778c2;
+  height: 40px;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
 }
 
 .email,
@@ -201,19 +241,34 @@ body {
   justify-content: center;
 }
 
-.signup-btn {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 1rem;
+.signup-button {
+  background-color: #f0eeee;
+  height: 40px;
+  color: #434b54;
+  border-radius: 4px;
+  font-weight: 600;
+  border: none;
 }
 
-.lp {
+.splash-links {
+  text-decoration: none;
+}
+
+.title {
+  color: #434b54;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: 1rem;
-  color: #30a966;
+  align-items: center;
+  height: 100%;
+}
+
+.back {
+  margin-left: 5px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.next {
+  margin-right: 5px;
+  font-size: 20px;
 }
