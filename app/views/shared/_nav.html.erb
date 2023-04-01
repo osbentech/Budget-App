@@ -1,0 +1,30 @@
+<header aria-label="Site Header" class="bg-white">
+  <nav class="nav">
+    <ul class="nav-ul">
+      <li class="li"><span id="menu" class="menu">&#9776;</span></li>
+      <li class="li">
+        <h1 class="category">
+          Categories
+        </h1>
+      </li>
+      <li>&nbsp;</li>
+    </ul>
+  </nav>
+</header>
+
+<div class="popup">
+  <% if user_signed_in? %>
+    <span class="logout">
+      &#10226;
+      <%= button_to "Sign out", destroy_user_session_path, method: :delete, class: 'logout-btn' %>
+    </span>
+    <% end %>
+</div>
+
+<script>
+  const menu = document.getElementById('menu');
+  const popup = document.querySelector('.popup');
+  menu.addEventListener('click', () => {
+    popup.style.display === 'block' ? popup.style.display = 'none' : popup.style.display = 'block';
+  });
+</script>

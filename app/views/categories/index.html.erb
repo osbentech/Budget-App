@@ -1,0 +1,18 @@
+<% if user_signed_in? %> <%= render "shared/nav" %> <% end %>
+<p style="color: green"><%= notice %></p>
+<div class="container">
+  <div id="categories">
+    <% @categories.each do |category| %>
+      <%= render category %>
+    <% end %>
+  </div>
+
+  <div class="footer">
+    <div class="scan-cont">
+      <div class="new-cate">
+        <%= link_to "New category", new_category_path, class: "scan"%>
+      </div>
+    </div>
+  </div>
+
+</div>
